@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "id": "02",
+  "repository_name": "agent-arena",
+  "title": "Incremental Navigation and Agent Benchmark",
+  "package": "agent_arena",
+  "focus": "D* Lite incremental replanning, observed graph changes, typed tools, bounded agents",
+  "layout": {
+    "docs_root": "arena-notes",
+    "tests_root": "scenarios",
+    "tools_root": "dev",
+    "config_root": "rulesets",
+    "examples_root": "transcripts",
+    "verifier": "dev/check_arena.py",
+    "source_roots": [
+      "src"
+    ],
+    "documents": {
+      "architecture": "arena-notes/map-and-agent-boundaries.md",
+      "design": "arena-notes/search-and-memory.md",
+      "review": "arena-notes/trace-audit.md",
+      "experiments": "arena-notes/arena-results.md",
+      "publishing": "arena-notes/distributing-the-arena.md",
+      "validation": "arena-notes/scenario-checks.md"
+    }
+  }
+}

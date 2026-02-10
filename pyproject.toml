@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools==78.1.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "applied-ai-agent-arena"
+version = "0.1.0"
+description = "D* Lite incremental replanning, reproducible navigation, and bounded agent-policy evaluation"
+requires-python = ">=3.11"
+dependencies = []
+
+readme = "README.md"
+license = "MIT"
+
+[project.optional-dependencies]
+hf = ["transformers>=4.45,<5", "torch>=2.2", "safetensors>=0.4"]
+
+[project.scripts]
+agent-arena = "agent_arena.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
