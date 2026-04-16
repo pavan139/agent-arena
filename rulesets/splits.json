@@ -1,0 +1,225 @@
+{
+  "version": "procedural-release-v2",
+  "generator": "dfs-perfect-maze-v1",
+  "provenance": "synthetic procedural perfect mazes",
+  "development": {
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "dimensions": [
+      [
+        9,
+        9
+      ]
+    ]
+  },
+  "release": {
+    "seeds": [
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111
+    ],
+    "dimensions": [
+      [
+        11,
+        11
+      ],
+      [
+        13,
+        9
+      ],
+      [
+        9,
+        13
+      ]
+    ],
+    "worlds": [
+      {
+        "seed": 100,
+        "dimensions": [
+          11,
+          11
+        ],
+        "maze_sha256": "934668f9066df08c4ba8bf26e8a9788d519f7361929eb2e3920c86a7db236f42"
+      },
+      {
+        "seed": 101,
+        "dimensions": [
+          13,
+          9
+        ],
+        "maze_sha256": "c8943e88dd7baa3b7170ad71853a1856c478bdbeb759111fca091ac94408066e"
+      },
+      {
+        "seed": 102,
+        "dimensions": [
+          9,
+          13
+        ],
+        "maze_sha256": "37922463127d149fcb53a24200176d821ef6d225cec66b7b875a1a8f22d50438"
+      },
+      {
+        "seed": 103,
+        "dimensions": [
+          11,
+          11
+        ],
+        "maze_sha256": "ffc8827b6334c94843f4b91e18feb773a140fa6b4ab42e9e33a946123028bd48"
+      },
+      {
+        "seed": 104,
+        "dimensions": [
+          13,
+          9
+        ],
+        "maze_sha256": "add1e45358c6012189b60801e09e16e8f001f4253b7f236748c73fa93b7ac860"
+      },
+      {
+        "seed": 105,
+        "dimensions": [
+          9,
+          13
+        ],
+        "maze_sha256": "edf6db9abdbcc2f660a4a8f92d22eee8289efea792d7922e9e6355f9de172121"
+      },
+      {
+        "seed": 106,
+        "dimensions": [
+          11,
+          11
+        ],
+        "maze_sha256": "1a6b1927a4621b65ae62442a044b95db6e4f8b46eee3686ae2e36ff889b978d5"
+      },
+      {
+        "seed": 107,
+        "dimensions": [
+          13,
+          9
+        ],
+        "maze_sha256": "782ffa554b0aad2ebd64c48610a432d14ee913622986950b79ec361578803513"
+      },
+      {
+        "seed": 108,
+        "dimensions": [
+          9,
+          13
+        ],
+        "maze_sha256": "2a5a14068fa9cf12a5e423713d77b11c005a4207b51f5e8348627dc2af07d4fe"
+      },
+      {
+        "seed": 109,
+        "dimensions": [
+          11,
+          11
+        ],
+        "maze_sha256": "8ae199ec327ac99a162a75b665869afed48def2a08b4a463764c924fa75b8901"
+      },
+      {
+        "seed": 110,
+        "dimensions": [
+          13,
+          9
+        ],
+        "maze_sha256": "674f2f2413f83171262766b26daab1b44f39a638b35fc3928ee2dcca92dd21b1"
+      },
+      {
+        "seed": 111,
+        "dimensions": [
+          9,
+          13
+        ],
+        "maze_sha256": "70110bc6be3f085249730db054d71eeeba10d23841851e5512f65e308cd2a4e9"
+      }
+    ]
+  },
+  "exploration_stress": {
+    "seeds": [
+      200,
+      201,
+      202,
+      203,
+      204,
+      205
+    ],
+    "dimensions": [
+      [
+        15,
+        15
+      ],
+      [
+        17,
+        13
+      ],
+      [
+        13,
+        17
+      ]
+    ],
+    "worlds": [
+      {
+        "seed": 200,
+        "dimensions": [
+          15,
+          15
+        ],
+        "maze_sha256": "9bd9c51dbb64a48cdeaa493bd0fda0a306b88d8c0797000ccb87d5474309c0ab"
+      },
+      {
+        "seed": 201,
+        "dimensions": [
+          17,
+          13
+        ],
+        "maze_sha256": "a322478e844f02d9cf6e7e2027e60d148695b3b0a5c37decd342e4656ab75eb6"
+      },
+      {
+        "seed": 202,
+        "dimensions": [
+          13,
+          17
+        ],
+        "maze_sha256": "5071ae64e4bb3d22703d18c49073cdd0034c1f12a0a7cefc10db8731c56f6b82"
+      },
+      {
+        "seed": 203,
+        "dimensions": [
+          15,
+          15
+        ],
+        "maze_sha256": "19f1a1d3cf4648a70bb5a03a1cf62d03378385527029a722b77d2d2375b3157c"
+      },
+      {
+        "seed": 204,
+        "dimensions": [
+          17,
+          13
+        ],
+        "maze_sha256": "801b91cc4e028897c1a6889e86104251dced9df8fb25d78c739cc6094579cf0c"
+      },
+      {
+        "seed": 205,
+        "dimensions": [
+          13,
+          17
+        ],
+        "maze_sha256": "84c77489f4637a808366f797d7174e0279e0a6ca1396a90a97f4b252b69ba4f2"
+      }
+    ]
+  }
+}
