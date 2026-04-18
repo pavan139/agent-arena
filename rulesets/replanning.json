@@ -1,0 +1,16 @@
+{
+  "dataset_version": "incremental-navigation-v1",
+  "seeds": [300, 301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311],
+  "dimensions": [15, 15],
+  "initial_extra_open_cells": 12,
+  "planner": "d_star_lite",
+  "baseline_algorithms": ["repeated_bfs", "restarted_local_dfs"],
+  "cost_model": "unit-cost four-neighbor edges; blocked endpoints have infinite cost",
+  "knowledge": "initial full map plus complete application-provided changes",
+  "max_changes_per_observation": 128,
+  "max_pending_observations": 128,
+  "max_repair_attempts": 256,
+  "default_max_queue_pops": 100000,
+  "max_trace_events_per_repair": 256,
+  "note": "Documents experiment defaults; this file is not a runtime configuration loader."
+}
