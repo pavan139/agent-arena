@@ -1,0 +1,90 @@
+{
+  "dataset_sha256": "3d43b2c737bf291e2fbdd98ebcd1c5d867699fa2ed7d6de9ff835a9536333633",
+  "run_type": "offline_algorithms",
+  "implementation": "deterministic policies; no LLM or training",
+  "observation_comparison": "full-map reactive/oracle versus separately labeled neighbor-only DFS; information budgets differ",
+  "checks_passed": 56,
+  "checks_total": 56,
+  "replay_checks_passed": 56,
+  "metrics": {
+    "bfs_planning_oracle": {
+      "episodes": 12,
+      "successes": 12,
+      "success_rate": 1.0,
+      "observation_modes": [
+        "full_map"
+      ],
+      "mean_success_steps": 22.666666666666668,
+      "successful_episode_count": 12,
+      "mean_path_efficiency": 1.0,
+      "success_weighted_path_efficiency": 1.0,
+      "stop_reasons": {
+        "goal_reached": 12
+      }
+    },
+    "local_dfs_explorer": {
+      "episodes": 12,
+      "successes": 12,
+      "success_rate": 1.0,
+      "observation_modes": [
+        "local_neighbors"
+      ],
+      "mean_success_steps": 39.666666666666664,
+      "successful_episode_count": 12,
+      "mean_path_efficiency": 0.6399607337107337,
+      "success_weighted_path_efficiency": 0.6399607337107337,
+      "stop_reasons": {
+        "goal_reached": 12
+      }
+    },
+    "reactive_manhattan": {
+      "episodes": 12,
+      "successes": 3,
+      "success_rate": 0.25,
+      "observation_modes": [
+        "full_map"
+      ],
+      "mean_success_steps": 16.0,
+      "successful_episode_count": 3,
+      "mean_path_efficiency": 1.0,
+      "success_weighted_path_efficiency": 0.25,
+      "stop_reasons": {
+        "goal_reached": 3,
+        "repeated_action": 9
+      }
+    }
+  },
+  "stress_metrics": {
+    "bfs_planning_oracle": {
+      "episodes": 6,
+      "successes": 6,
+      "success_rate": 1.0,
+      "observation_modes": [
+        "full_map"
+      ],
+      "mean_success_steps": 49.333333333333336,
+      "successful_episode_count": 6,
+      "mean_path_efficiency": 1.0,
+      "success_weighted_path_efficiency": 1.0,
+      "stop_reasons": {
+        "goal_reached": 6
+      }
+    },
+    "local_dfs_explorer": {
+      "episodes": 6,
+      "successes": 6,
+      "success_rate": 1.0,
+      "observation_modes": [
+        "local_neighbors"
+      ],
+      "mean_success_steps": 77.33333333333333,
+      "successful_episode_count": 6,
+      "mean_path_efficiency": 0.7334565288512657,
+      "success_weighted_path_efficiency": 0.7334565288512657,
+      "stop_reasons": {
+        "goal_reached": 6
+      }
+    }
+  },
+  "dataset_version": "procedural-release-v2"
+}

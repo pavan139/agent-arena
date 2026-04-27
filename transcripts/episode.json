@@ -1,0 +1,410 @@
+{
+  "policy": "bfs_planning_oracle",
+  "model_identity": null,
+  "policy_version": "navigation-v2",
+  "seed": 100,
+  "maze_sha256": "934668f9066df08c4ba8bf26e8a9788d519f7361929eb2e3920c86a7db236f42",
+  "observation_mode": "full_map",
+  "limits": {
+    "max_steps": 128,
+    "repeated_action_limit": 3,
+    "no_progress_limit": 3,
+    "timeout_seconds": 2.0,
+    "allowed_actions": [
+      "east",
+      "north",
+      "south",
+      "west"
+    ]
+  },
+  "start": [
+    1,
+    1
+  ],
+  "dimensions": [
+    11,
+    11
+  ],
+  "success": true,
+  "stop_reason": "goal_reached",
+  "steps": 24,
+  "policy_attempts": 24,
+  "valid_moves": 24,
+  "optimal_steps": 24,
+  "final_position": [
+    9,
+    9
+  ],
+  "goal": [
+    9,
+    9
+  ],
+  "latency_ms": 2.09,
+  "trace": [
+    {
+      "step": 0,
+      "action": "east",
+      "before": [
+        1,
+        1
+      ],
+      "allowed": true,
+      "valid": true,
+      "after": [
+        2,
+        1
+      ],
+      "state_hash": "34e6f08aad18ac98"
+    },
+    {
+      "step": 1,
+      "action": "east",
+      "before": [
+        2,
+        1
+      ],
+      "allowed": true,
+      "valid": true,
+      "after": [
+        3,
+        1
+      ],
+      "state_hash": "2039c2811a457633"
+    },
+    {
+      "step": 2,
+      "action": "south",
+      "before": [
+        3,
+        1
+      ],
+      "allowed": true,
+      "valid": true,
+      "after": [
+        3,
+        2
+      ],
+      "state_hash": "f235c0d55f3014a3"
+    },
+    {
+      "step": 3,
+      "action": "south",
+      "before": [
+        3,
+        2
+      ],
+      "allowed": true,
+      "valid": true,
+      "after": [
+        3,
+        3
+      ],
+      "state_hash": "89274fc6d8d6e386"
+    },
+    {
+      "step": 4,
+      "action": "south",
+      "before": [
+        3,
+        3
+      ],
+      "allowed": true,
+      "valid": true,
+      "after": [
+        3,
+        4
+      ],
+      "state_hash": "ae993a9dcb5af553"
+    },
+    {
+      "step": 5,
+      "action": "south",
+      "before": [
+        3,
+        4
+      ],
+      "allowed": true,
+      "valid": true,
+      "after": [
+        3,
+        5
+      ],
+      "state_hash": "837731ea8471ee2a"
+    },
+    {
+      "step": 6,
+      "action": "east",
+      "before": [
+        3,
+        5
+      ],
+      "allowed": true,
+      "valid": true,
+      "after": [
+        4,
+        5
+      ],
+      "state_hash": "9bec5111b258610b"
+    },
+    {
+      "step": 7,
+      "action": "east",
+      "before": [
+        4,
+        5
+      ],
+      "allowed": true,
+      "valid": true,
+      "after": [
+        5,
+        5
+      ],
+      "state_hash": "a3173f7cc23143bb"
+    },
+    {
+      "step": 8,
+      "action": "south",
+      "before": [
+        5,
+        5
+      ],
+      "allowed": true,
+      "valid": true,
+      "after": [
+        5,
+        6
+      ],
+      "state_hash": "6510380315d3127b"
+    },
+    {
+      "step": 9,
+      "action": "south",
+      "before": [
+        5,
+        6
+      ],
+      "allowed": true,
+      "valid": true,
+      "after": [
+        5,
+        7
+      ],
+      "state_hash": "a4b1877e00a1564f"
+    },
+    {
+      "step": 10,
+      "action": "south",
+      "before": [
+        5,
+        7
+      ],
+      "allowed": true,
+      "valid": true,
+      "after": [
+        5,
+        8
+      ],
+      "state_hash": "65eee94dcce1d506"
+    },
+    {
+      "step": 11,
+      "action": "south",
+      "before": [
+        5,
+        8
+      ],
+      "allowed": true,
+      "valid": true,
+      "after": [
+        5,
+        9
+      ],
+      "state_hash": "fea6ca3f2d960064"
+    },
+    {
+      "step": 12,
+      "action": "east",
+      "before": [
+        5,
+        9
+      ],
+      "allowed": true,
+      "valid": true,
+      "after": [
+        6,
+        9
+      ],
+      "state_hash": "a5c5b7a42dfce657"
+    },
+    {
+      "step": 13,
+      "action": "east",
+      "before": [
+        6,
+        9
+      ],
+      "allowed": true,
+      "valid": true,
+      "after": [
+        7,
+        9
+      ],
+      "state_hash": "45efb1008f87ae12"
+    },
+    {
+      "step": 14,
+      "action": "north",
+      "before": [
+        7,
+        9
+      ],
+      "allowed": true,
+      "valid": true,
+      "after": [
+        7,
+        8
+      ],
+      "state_hash": "958dc7f152782148"
+    },
+    {
+      "step": 15,
+      "action": "north",
+      "before": [
+        7,
+        8
+      ],
+      "allowed": true,
+      "valid": true,
+      "after": [
+        7,
+        7
+      ],
+      "state_hash": "29c62ae918352364"
+    },
+    {
+      "step": 16,
+      "action": "north",
+      "before": [
+        7,
+        7
+      ],
+      "allowed": true,
+      "valid": true,
+      "after": [
+        7,
+        6
+      ],
+      "state_hash": "81597424fa4b8463"
+    },
+    {
+      "step": 17,
+      "action": "north",
+      "before": [
+        7,
+        6
+      ],
+      "allowed": true,
+      "valid": true,
+      "after": [
+        7,
+        5
+      ],
+      "state_hash": "244fe9400855ec0c"
+    },
+    {
+      "step": 18,
+      "action": "east",
+      "before": [
+        7,
+        5
+      ],
+      "allowed": true,
+      "valid": true,
+      "after": [
+        8,
+        5
+      ],
+      "state_hash": "b1a1e628e1435d00"
+    },
+    {
+      "step": 19,
+      "action": "east",
+      "before": [
+        8,
+        5
+      ],
+      "allowed": true,
+      "valid": true,
+      "after": [
+        9,
+        5
+      ],
+      "state_hash": "a073fc0d0ad2dfed"
+    },
+    {
+      "step": 20,
+      "action": "south",
+      "before": [
+        9,
+        5
+      ],
+      "allowed": true,
+      "valid": true,
+      "after": [
+        9,
+        6
+      ],
+      "state_hash": "8a919764a5bd77cb"
+    },
+    {
+      "step": 21,
+      "action": "south",
+      "before": [
+        9,
+        6
+      ],
+      "allowed": true,
+      "valid": true,
+      "after": [
+        9,
+        7
+      ],
+      "state_hash": "1597b2c098dcdca3"
+    },
+    {
+      "step": 22,
+      "action": "south",
+      "before": [
+        9,
+        7
+      ],
+      "allowed": true,
+      "valid": true,
+      "after": [
+        9,
+        8
+      ],
+      "state_hash": "757add810f8ce30c"
+    },
+    {
+      "step": 23,
+      "action": "south",
+      "before": [
+        9,
+        8
+      ],
+      "allowed": true,
+      "valid": true,
+      "after": [
+        9,
+        9
+      ],
+      "state_hash": "075caff64867f25d"
+    }
+  ],
+  "usage": {
+    "provider_calls": 0,
+    "tokens": 0,
+    "cost_usd": 0
+  }
+}
