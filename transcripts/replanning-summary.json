@@ -1,0 +1,126 @@
+{
+  "dataset_sha256": "e9fc780787fbdd4daeaf15be856e6addfeb94b5b06f75392efe02b820c16ca6b",
+  "run_type": "classical_incremental_search_experiment",
+  "model_calls": 0,
+  "checks_passed": 156,
+  "checks_total": 156,
+  "independent_bfs_agreements": 156,
+  "no_path_case_count": 30,
+  "information_contract": "D* Lite: initial full map plus complete changes; BFS: fresh full snapshot; DFS: neighbor sensing with episode memory reset per snapshot",
+  "work_counter_caveat": "expansions count algorithm-specific state processing; D* edge inspections also include rhs updates and path extraction; counters are not wall-clock speedups",
+  "metrics": {
+    "d_star_lite": {
+      "planning_calls": 156,
+      "path_found": 126,
+      "no_path": 30,
+      "reachable_case_count": 126,
+      "shortest_path_count": 126,
+      "vertex_expansions": 5108,
+      "edge_inspections": 102522,
+      "initial_vertex_expansions": 898,
+      "repair_vertex_expansions": 4210,
+      "initial_case_count": 12,
+      "repair_case_count": 144,
+      "mean_reachable_walk_length": 25.238095238095237
+    },
+    "repeated_bfs": {
+      "planning_calls": 156,
+      "path_found": 126,
+      "no_path": 30,
+      "reachable_case_count": 126,
+      "shortest_path_count": 126,
+      "vertex_expansions": 13193,
+      "edge_inspections": 52268,
+      "initial_vertex_expansions": 1093,
+      "repair_vertex_expansions": 12100,
+      "initial_case_count": 12,
+      "repair_case_count": 144,
+      "mean_reachable_walk_length": 25.238095238095237
+    },
+    "restarted_dfs": {
+      "planning_calls": 156,
+      "path_found": 126,
+      "no_path": 30,
+      "reachable_case_count": 126,
+      "shortest_path_count": 0,
+      "vertex_expansions": 12788,
+      "edge_inspections": 51152,
+      "initial_vertex_expansions": 740,
+      "repair_vertex_expansions": 12048,
+      "initial_case_count": 12,
+      "repair_case_count": 144,
+      "mean_reachable_walk_length": 59.34920634920635
+    }
+  },
+  "failures": [],
+  "dataset_version": "incremental-navigation-v1",
+  "scenario_count": 12,
+  "tags": {
+    "block_goal": {
+      "cases": 12,
+      "zero_expansion_repairs": 0,
+      "d_star_expansions": 836,
+      "bfs_expansions": 0
+    },
+    "close_current_route": {
+      "cases": 12,
+      "zero_expansion_repairs": 0,
+      "d_star_expansions": 320,
+      "bfs_expansions": 995
+    },
+    "idempotent_observation": {
+      "cases": 12,
+      "zero_expansion_repairs": 12,
+      "d_star_expansions": 0,
+      "bfs_expansions": 1093
+    },
+    "initial_plan": {
+      "cases": 12,
+      "zero_expansion_repairs": 0,
+      "d_star_expansions": 898,
+      "bfs_expansions": 1093
+    },
+    "isolate_goal": {
+      "cases": 12,
+      "zero_expansion_repairs": 0,
+      "d_star_expansions": 1027,
+      "bfs_expansions": 1262
+    },
+    "mixed_edge_changes": {
+      "cases": 12,
+      "zero_expansion_repairs": 3,
+      "d_star_expansions": 180,
+      "bfs_expansions": 1050
+    },
+    "open_shortcut": {
+      "cases": 12,
+      "zero_expansion_repairs": 5,
+      "d_star_expansions": 28,
+      "bfs_expansions": 1187
+    },
+    "reopen_current_route": {
+      "cases": 12,
+      "zero_expansion_repairs": 0,
+      "d_star_expansions": 147,
+      "bfs_expansions": 1093
+    },
+    "reopen_goal": {
+      "cases": 12,
+      "zero_expansion_repairs": 0,
+      "d_star_expansions": 836,
+      "bfs_expansions": 1093
+    },
+    "restore_goal_edges": {
+      "cases": 12,
+      "zero_expansion_repairs": 0,
+      "d_star_expansions": 836,
+      "bfs_expansions": 1093
+    },
+    "start_move": {
+      "cases": 36,
+      "zero_expansion_repairs": 36,
+      "d_star_expansions": 0,
+      "bfs_expansions": 3234
+    }
+  }
+}
