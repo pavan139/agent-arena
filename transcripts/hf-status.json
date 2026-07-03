@@ -1,0 +1,21 @@
+{
+  "dataset_version": "procedural-release-v2",
+  "dataset_sha256": "3d43b2c737bf291e2fbdd98ebcd1c5d867699fa2ed7d6de9ff835a9536333633",
+  "evaluated_split": "release",
+  "run_type": "real_local_hf_inference",
+  "status": "not_run",
+  "executed": false,
+  "model_identity": null,
+  "usage": {
+    "model_calls": 0,
+    "provider_calls": 0,
+    "cost_usd": null
+  },
+  "cases": [],
+  "error": {
+    "code": "invalid_checkpoint",
+    "type": "CheckpointError",
+    "message": "checkpoint must be an existing local directory containing config.json"
+  },
+  "verification_note": "No checkpoint supplied; no real model loading or inference was executed. Optional model tests use explicit contract doubles."
+}
