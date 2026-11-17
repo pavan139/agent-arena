@@ -11,8 +11,10 @@ Keeping search state reduced expansions in this experiment, but maintaining look
 
 ```bash
 python -m pip install -e .
-python -m agent_arena replan-evaluate --seed 300 --output artifacts/replanning.json
+python -m agent_arena replan-evaluate --output artifacts/replanning.json
 ```
+
+This runs all 12 seeded scenarios behind the table above (156 snapshots). Add `--seed N` to run one scenario.
 
 The replanning experiment closes and reopens routes, blocks and restores the goal, applies idempotent observations, and moves the start. D* Lite receives a full initial map plus a complete change feed. Its persistent `g/rhs` labels, keyed inconsistent-state queue and `km` correction survive those updates. A fresh BFS independently checks every repaired route.
 
